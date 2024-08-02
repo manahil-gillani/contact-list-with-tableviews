@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D53098C2C5C5122008F1690 /* contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D53098B2C5C5122008F1690 /* contacts.swift */; };
+		6D53098E2C5C549D008F1690 /* customcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D53098D2C5C549D008F1690 /* customcell.swift */; };
 		6DF799202C4DD9BA008ABD14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF7991F2C4DD9BA008ABD14 /* AppDelegate.swift */; };
 		6DF799222C4DD9BA008ABD14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF799212C4DD9BA008ABD14 /* SceneDelegate.swift */; };
 		6DF799242C4DD9BA008ABD14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF799232C4DD9BA008ABD14 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D53098B2C5C5122008F1690 /* contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contacts.swift; sourceTree = "<group>"; };
+		6D53098D2C5C549D008F1690 /* customcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customcell.swift; sourceTree = "<group>"; };
 		6DF7991C2C4DD9BA008ABD14 /* contact list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "contact list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF7991F2C4DD9BA008ABD14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DF799212C4DD9BA008ABD14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		6DF7991E2C4DD9BA008ABD14 /* contact list */ = {
 			isa = PBXGroup;
 			children = (
+				6D53098D2C5C549D008F1690 /* customcell.swift */,
+				6D53098B2C5C5122008F1690 /* contacts.swift */,
 				6DF7991F2C4DD9BA008ABD14 /* AppDelegate.swift */,
 				6DF799212C4DD9BA008ABD14 /* SceneDelegate.swift */,
 				6DF799232C4DD9BA008ABD14 /* ViewController.swift */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D53098E2C5C549D008F1690 /* customcell.swift in Sources */,
+				6D53098C2C5C5122008F1690 /* contacts.swift in Sources */,
 				6DF799242C4DD9BA008ABD14 /* ViewController.swift in Sources */,
 				6DF799202C4DD9BA008ABD14 /* AppDelegate.swift in Sources */,
 				6DF799222C4DD9BA008ABD14 /* SceneDelegate.swift in Sources */,
